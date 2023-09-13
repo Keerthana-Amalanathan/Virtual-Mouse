@@ -65,7 +65,7 @@ while True:
     if fingers[1] == 1 and fingers[2] == 1 and fingers[3] == 1:
         pyautogui.rightClick()
 
-    # 9. Both Thumb and Index fingers up -> right click Mode
+    # 9. Both Thumb and Index fingers up -> double click Mode
     if fingers[0] == 1 and fingers[1] == 1:
         pyautogui.doubleClick()
 
